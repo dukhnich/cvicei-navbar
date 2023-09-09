@@ -24,3 +24,27 @@ a:hover {
 }
 
 /* ---------------------------------------------------- */
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	padding: 10px 20px;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.navbar {
+	display: flex;
+	list-style: none;
+	margin: 0;
+}
+.navbar li {
+	padding: 0;
+	margin: 1px;
+	display: flex;
+}
+.navbar a {
+	display: flex;
+	align-items: center;
+}
